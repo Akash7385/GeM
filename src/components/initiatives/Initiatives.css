@@ -1,0 +1,53 @@
+.initiatives-container{
+    position: relative;
+    bottom: 10rem;
+}
+
+.ini-box{
+    box-shadow:  0 1px 14px 3px #7cbef2;
+    margin-left: 6rem;
+}
+#ini{
+    margin-left: 6rem;
+}
+.ini-box2{
+    box-shadow:  0 1px 14px 3px #7cbef2;
+    margin-right: 4rem;
+    margin-left: 2rem;
+    height: 30.5rem;
+}
+.gem-connect{
+margin-left: 2rem;
+}
+
+
+.ini-box img{
+    margin-left: 3rem;
+}
+.ini-connect{
+    padding-top: 1rem;
+    padding-left:1rem ;
+    cursor: pointer;
+}
+
+.ini-connect:hover{
+text-decoration: red;}
+
+/* Responsive Part Start */
+
+@media(max-width:1470px){
+    .ini-img{
+        margin-right: 2rem;
+    }
+}
+@media(max-width:1000px){
+    .social-container{
+        margin-top: 1rem;
+    }
+    .ini-box{
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+   
+}
+

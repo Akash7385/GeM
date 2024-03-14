@@ -1,0 +1,111 @@
+.service{
+text-align: center;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: 100;
+font-size: 1.9em;
+background-color: #125db8;
+}
+
+.popular{
+    margin-top: 30px;
+    color: white;
+}
+.ser-img{
+    background-color: white;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 13rem;
+    height: 6rem;
+}
+.ser-logos{
+    font-size:large;
+
+}
+
+/* button  */
+.btn-themes {
+    background: #ff772e;
+    font-size: 16px !important;
+    margin-top: 3% !important;
+    right:2%;
+    position: relative;
+}
+
+.btn-themes {
+    color: #FFF !important;
+    padding: 0.7rem 2.9rem;
+    font-weight: 400;
+    font-size: 0.875rem;
+    display: inline-block;
+    display: inline-flex;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 2;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 14px 47px 0px rgba(28, 28, 28, 0.24);
+    -moz-box-shadow: 0px 14px 47px 0px rgba(28, 28, 28, 0.24);
+    box-shadow: 0px 14px 47px 0px rgba(28, 28, 28, 0.24);
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    border-radius: 70px
+}
+
+.btn-themes i {
+    margin-right: 5px
+}
+
+a {
+ 
+    text-decoration: none !important;
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out
+}
+
+.btn-themes:hover {
+    box-shadow: none
+}
+
+/* why choose container */
+.choose{
+    height: 30rem;
+    margin-top: 11rem;
+    background-image: linear-gradient(to right, #ff4a2f , #f5821f);
+}
+.choose-heading{
+    margin-top: 2rem;
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+    font-size: 1.9em;
+    font-family:'Times New Roman', Times, serif;
+}
+.choose-logos{
+    
+    margin-left: 16rem;
+}
+.num{
+    color: white;
+}
+.numbers{
+    margin-left: 4rem;
+}
+hr{
+    border-top: 1px solid #cacaca;
+}
+.names{
+    margin-top: 1rem;
+    margin-right: 2rem;
+    color: white;
+    position: relative;
+    right: 2rem;
+}

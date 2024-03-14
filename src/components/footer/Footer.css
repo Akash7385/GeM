@@ -1,0 +1,40 @@
+
+.main-container{
+    margin-top: 2rem;
+    height: 10rem;
+}
+
+.items{
+margin-top: 2rem;
+}
+p{
+    text-align: center;
+}
+
+
+.foot{
+    background-color: grey;
+}
+
+.cont{
+    align-items: center;
+    justify-content: center;
+}
+
+.items{
+    margin-left: 2rem;
+    
+}
+
+ img{
+   margin-top: 2rem;
+}
+
+.social img{
+    padding-left: 1rem;
+}
+
+.copy{
+    text-align: right;
+    padding-right: 2rem;
+}

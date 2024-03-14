@@ -1,0 +1,489 @@
+.first-container{
+    
+    display: grid;
+    grid-template-columns:3rem  2fr 2fr 2fr 5fr 2fr 2fr  1rem ;
+    justify-content: center;
+    align-items: center;
+    background-color: #07222e;
+    padding-top: 5px; 
+}
+
+
+.lang{
+    display: grid;
+    grid-column: 2/3;
+    width: 2rem;
+    padding-left: 2rem;
+    cursor: pointer;
+    color: white;
+}
+
+.modes{
+    display: grid;
+    grid-column: 3/4;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    
+}
+.fonts{
+    color: white;
+    cursor: pointer;
+}
+#dark-logo{
+    font-size: x-large;
+    cursor: pointer;
+    padding-right: 2px;
+    
+}
+
+.ticket{
+    display: grid;
+    grid-column: 6/7;
+    cursor: pointer;
+    color: white;
+}
+.help{
+    display: grid;
+    grid-column: 7/-1;
+    cursor: pointer;
+    color: white;
+}
+
+
+/* second navbar section */
+#cart
+{
+    display: grid;
+    grid-column: 7/8;
+color: white;
+margin-top: 2.5rem;
+cursor: pointer;
+font-size: x-large;
+
+}
+.second-container{
+    display: grid;
+    grid-template-columns: 3rem  3fr 5fr 2fr 2fr 2fr  3rem ;
+    background-color: #07222e;
+
+}
+
+
+.main-logo{
+    display: grid;
+    grid-column: 2/3;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 6px;
+}
+
+/* search bar */
+
+
+
+
+    .searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 5px  ;
+    width: 450px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    position: relative;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+position: relative;
+bottom: 40px;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    }
+
+    /* Auction */
+    .auction{
+        display: grid;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .bids{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        cursor: pointer;
+    }
+    .login{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        cursor: pointer;
+    }
+
+    #hr{
+        border-top: 1px solid red;
+height: 0;
+box-sizing: content-box;
+overflow: visible;
+border: 0;
+background-image: grey;
+}
+    
+
+    /* Third section start */
+
+    .third-container{
+        display: grid;
+        grid-template-columns: 3rem 3fr 2fr 2fr 2fr 5fr 2fr 0.3fr 1rem;
+    background-color: #07222e;
+    margin-top: 1px;
+    
+    
+    }
+    .dropdownn{
+        display: grid;
+        grid-column: 2/3;
+        align-items: center;
+        color: white;
+        cursor: pointer;
+    }
+
+    .dropbtnn {
+        background-color: #07222e;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+      }
+      
+      .dropdownn {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdownn-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdownn-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdownn-content a:hover {background-color: #ddd;}
+      
+      .dropdownn:hover .dropdownn-content {display: block;}
+      
+      .dropdownn:hover .dropbtnn {background-color: #3e8e41;}
+    
+    #ham-logo{
+padding-right: 5px;
+font-size: x-large;
+    }
+
+    .mobile-dropdownn{
+        display: none;
+    }
+
+   /* hover-fropdown-benefits */
+
+   .dropbtn {
+    background-color: #07222e;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {
+
+font-size:115%;}
+
+  .odop{
+    text-align: center;
+  }
+  /* New onGem */
+
+  .new-gem{
+    display: grid;
+grid-column: 7/8; 
+justify-content: center;
+align-items: center; 
+}
+
+
+
+#new{
+position: relative;
+bottom: 14px;
+right: 10px;
+}
+#bell{
+    display: grid;
+    grid-column: 8/10;
+    color: white;
+    margin-top: 1.2rem; 
+    cursor: pointer;
+}
+ 
+
+.right-icon{
+    margin-left: 4rem;
+}
+
+.mobile-container{
+    display: none;
+}
+
+.menu-links{
+    display: none;
+}
+
+
+/* search bar for mobile menu */
+
+
+/* Mobile Part SrRT */
+
+@media(max-width:950px){
+    .first-container{
+        display: none;
+    }
+    .second-container{
+        display: none;
+    }
+    .third-container{
+        display: none;
+    }
+    .mobile-container{
+       
+        display: block;
+    }
+   
+    .first-mobile-container{
+        background-color: #07222e ;
+        display: grid;
+        grid-template-columns: 5rem 8fr 2fr 1rem ;
+    }
+    .hamberger{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .hamberger a{
+        color: white;
+        font-size:150%;
+        
+    }
+    .mobile-main-logo {
+        justify-content: center;
+        text-align: center;
+    }
+    .mobile-main-logo img{
+        height: 6rem;
+        position: relative;
+        bottom: 1rem;
+        
+    }
+    .mobile-login-logo  {
+        text-align: center;
+    }
+    .mobile-login-logo img{
+        height: 1.5rem;
+        position: relative;
+        top: 1rem;
+    }
+
+    .second-mobile-container{
+        background-color: #07222e;
+        display: grid;
+    }
+    #mobile-lang{
+        width: 50.2rem;
+        background-color: #07222e;
+        color: white;
+    }
+    .value{
+        background-color: white;
+        color: red;
+    }
+    .third-mobile-container{
+        background-color: #07222e;
+        height: 6rem;
+    }
+/* search bar for mobile menu */
+
+.searchbarrr{
+    
+    height: 60px;
+background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    }
+    .container-search{
+        padding-top: 1rem;
+    }
+
+    .search_inputt{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbarrr:hover > .search_inputt{
+    padding: 0 5px  ;
+    width: 450px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    position: relative;
+    }
+    .search_iconn{
+    height: 40px;
+    width: 40px;
+    float: right;
+        color: #e74c3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration:none;
+    }
+
+    .mob.mobile-menu{
+        height: 100vh;
+        display: block;
+        background-color: whitesmoke;
+       
+    }
+    .mob{
+        transition: height .8s;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: scroll;
+    
+    }
+    .mobile-item{
+        margin-left: 1rem;
+    }
+    .mobile-dropdownn{
+        display: grid;
+        grid-column: 2/3;
+        align-items: center;
+        color: white;
+        cursor: pointer;
+    }
+
+    .mobile-dropbtnn {
+        background-color: whitesmoke;
+        
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+      }
+      
+      .mobile-dropdownn {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .mobile-dropdownn-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .mobile-dropdownn-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .mobile-dropdownn-content a:hover {background-color: #ddd;}
+      
+      .mobile-dropdownn:hover .mobile-dropdownn-content {display: block;}
+      
+      .mobile-dropdownn:hover .mobile-dropbtnn {}
+
+}
+.mobile-item a{
+    color: black;
+}

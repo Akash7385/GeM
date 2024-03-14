@@ -1,0 +1,24 @@
+.ratings{
+    position: relative;
+    bottom: 10rem;
+    display: block;
+}
+.ratings img{
+    height: 24rem;
+    width: 8rem;
+    border: solid #cacaca;
+    border-radius: 10px;
+
+}
+
+@media(max-width:1200px){
+    .ratings{
+        margin-top: 3rem;
+    }
+}
+
+@media(max-width:1064px){
+    .ratings{
+        margin-top: 2rem;
+    }
+}
